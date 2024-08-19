@@ -1,7 +1,7 @@
 import {AxiosInstance} from "axios";
 import axios from "axios";
-import {Aggregation, Result} from "../entity";
-import {Product} from "../entity";
+import {Aggregation, Result} from "../entity/aggregation";
+import {Product} from "../entity/product";
 import camelcaseKeys from "camelcase-keys";
 
 export type SearchServiceClientConfig = {

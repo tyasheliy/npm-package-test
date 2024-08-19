@@ -1,5 +1,5 @@
-import { Aggregation, Result } from "../entity";
-import { Product } from "../entity";
+import { Aggregation, Result } from "../entity/aggregation";
+import { Product } from "../entity/product";
 export type SearchServiceClientConfig = {
     host: string;
     index: string;

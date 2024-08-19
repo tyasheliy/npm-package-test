@@ -1,4 +1,9 @@
-import * as _client from "./client/index";
-import * as _condition from "./condition/index";
-import * as _entity from "./entity/index";
-import * as _history from "./history/index";
+export * from "./client/search-service";
+
+export * from "./condition/abstract";
+export * from "./condition/by-categories-and-nested-manufacturers";
+
+export * from "./entity/aggregation";
+export * from "./entity/product";
+
+export * from "./history/search-history";

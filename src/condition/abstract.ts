@@ -1,5 +1,5 @@
-import {SearchRequest} from "../client";
-import {Aggregation} from "../entity";
+import {SearchRequest} from "../client/search-service";
+import {Aggregation} from "../entity/aggregation";
 
 export interface SearchCondition {
     buildRequest(): SearchRequest;

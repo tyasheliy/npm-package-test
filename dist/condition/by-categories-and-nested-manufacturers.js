@@ -1,5 +1,5 @@
 import { BaseSearchCondition } from "./abstract";
-import { createTypeAggregation } from "../entity";
+import { createTypeAggregation } from "../entity/aggregation";
 export class ByCategoriesAndNestedManufacturersSearchCondition extends BaseSearchCondition {
     constructor(query, categories, manufacturers) {
         let filter = undefined;
